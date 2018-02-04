@@ -25,12 +25,21 @@
   Analysis the data.
 
   Analysis the "survived" column using the .describe()
+
   ```
+
+- 각자 작업은 Branch에서 각자의 방식으로 이루어지만 각자 Branch에서 develope Branch를 만들어서 할 수도 있을 것 같습니다.
+
+
 
 
 
 - 각자 작업이 완료되면 온라인/오프라인 회의를 통해 전체 프로젝트에 쓸 코드를 정한다.
-- 회의를 통해 정해진 코드 ''Project.ipynb" 폴더에 취합하고, master branch에 Merge한다.
+- 회의를 통해 정해진 코드는 Master Branch에서 **Pull request**를 통해 'Project.ipynb'에 업로드한다. 
+
+
+참고 : [Git을 이용한 협업 워크플로우 배우기](http://blog.appkr.kr/learn-n-think/comparing-workflows/)
+
 
 
 
@@ -47,7 +56,7 @@
 
 - WangBoyeun : 왕보연님의 작업공간
 
-- YoonJaeyoung : 이도행님의 작업공간
+- YoonJaeyoung : 윤재영님의 작업공간
 
 - Total : 전체 팀의 작업공간
 

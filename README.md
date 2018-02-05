@@ -54,7 +54,7 @@
 
 - LeeDohaeng : 이도행님의 작업공간
 
-- WangBoyeun : 왕보연님의 작업공간
+- WangBoyun : 왕보연님의 작업공간
 
 - YoonJaeyoung : 윤재영님의 작업공간
 

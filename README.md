@@ -23,7 +23,6 @@
 
   ```
   Analysis the data.
-
   Analysis the "survived" column using the .describe()
 
   ```
@@ -68,4 +67,5 @@
 
 - 작업 시작 전에 `git checkout 자신branch`로 변경한다.
 - master가 업데이트 되면 **자신의 branch 위치**에서  `git pull origin master`으로 동기화를 맞춰준다. 
+- 작업이 끝나고 난 뒤에는, `git push origin 자신의 branch`로 업로드한다.
 

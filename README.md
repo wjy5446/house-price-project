@@ -60,6 +60,8 @@
 
 - Total : 전체 팀의 작업공간
 
+- data : Home-price가 data 정보가 있는 곳
+
   ​
 
 ## 주의사항

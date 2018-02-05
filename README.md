@@ -64,5 +64,6 @@
 
 ## 주의사항
 
-- 아직없음..
+- 작업 시작 전에 `git checkout 자신branch`로 변경한다.
+- master가 업데이트 되면 **자신의 branch 위치**에서  `git pull origin master`으로 동기화를 맞춰준다. 
 

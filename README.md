@@ -77,3 +77,12 @@
 5. 자신의 dev branch에서 `git pull origin master`로 master와 dev branch을 동기화한다.
 
 
+
+
+## Pull request 하는 방법
+
+1. 자신의 master에서 모든 수정 사항을 commit 한다. (master에는 회의를 통해 업로드할 파일만 merge 한다.)
+2. 자신의 github로 들어가 메인 repo에 pull request를 작성한다.
+3. 그리고 팀장이 메인 repo를 업로드한다. 
+4. 그런 뒤 위의 메인 repo 동기화 방법을 통해 최신 메인 repo를 업로드한다. 
+

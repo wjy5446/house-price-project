@@ -73,5 +73,7 @@
 1. 자신의 master branch로 이동
 2. `git fetch upstream`
 3. `git merge upstream/master`
-4. 자신의 dev branch에서 `git pull master`로 master와 dev branch을 동기화한다.
+4. `git push`
+5. 자신의 dev branch에서 `git pull origin master`로 master와 dev branch을 동기화한다.
+
 

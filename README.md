@@ -72,4 +72,6 @@
 
 1. `git fetch upstream`
 2. `git merge upstream/master`
+3. `git merge upstream/자신의브랜치`
+
 

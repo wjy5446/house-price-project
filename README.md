@@ -70,8 +70,8 @@
 
 ## 메인 repo와 동기화하는 방법
 
-1. `git fetch upstream`
-2. `git merge upstream/master`
-3. `git merge upstream/자신의브랜치`
-
+1. 자신의 master branch로 이동
+2. `git fetch upstream`
+3. `git merge upstream/master`
+4. 자신의 dev branch에서 `git pull master`로 master와 dev branch을 동기화한다.
 

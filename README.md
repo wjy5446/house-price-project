@@ -27,14 +27,12 @@
 
   ```
 
-- 각자 작업은 Branch에서 각자의 방식으로 이루어지만 각자 Branch에서 develope Branch를 만들어서 할 수도 있을 것 같습니다.
-
-
+- 각자 작업은 Fork를 이용해 자신의 작업공간에서 이루어진다. 
 
 
 
 - 각자 작업이 완료되면 온라인/오프라인 회의를 통해 전체 프로젝트에 쓸 코드를 정한다.
-- 회의를 통해 정해진 코드는 Master Branch에서 **Pull request**를 통해 'Project.ipynb'에 업로드한다. 
+- 회의를 통해 정해진 코드는 Master Branch에서 **Pull request**를 통해 메인 repo에 업로드한다. 
 
 
 참고 : [Git을 이용한 협업 워크플로우 배우기](http://blog.appkr.kr/learn-n-think/comparing-workflows/)
@@ -44,7 +42,6 @@
 
 ### Branch
 
-- YJY(윤재영), WBY(왕보연), LDH(이도행) :
 - master
 
 
@@ -66,6 +63,13 @@
 ## 주의사항
 
 - 작업 시작 전에 `git checkout 자신branch`로 변경한다.
-- master가 업데이트 되면 **자신의 branch 위치**에서  `git pull origin master`으로 동기화를 맞춰준다. 
-- 작업이 끝나고 난 뒤에는, `git push origin 자신의 branch`로 업로드한다.
+- 메인 repo에 변경사항이 있는 경우, 메인 repo와 동기화 한다. (메인 repo 변경 사항이 있는 경우, 슬랙  DM를 통해 알려 드립니다.^^)
+
+
+
+
+## 메인 repo와 동기화하는 방법
+
+1. `git fetch upstream`
+2. `git merge upstream/master`
 

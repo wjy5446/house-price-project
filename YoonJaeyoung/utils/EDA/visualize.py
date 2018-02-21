@@ -132,11 +132,11 @@ def dispQuan(data, target, size = (5, 5)):
             tmp_data.dropna(inplace = True)
 
         # display the distplot
-        sns.distplot(s_quan, kde = kde, rug = rug, ax = axes[i, 0])
+        sns.distplot(tmp_data[c], kde = True, rug = False, ax = axes[i, 0])
 
         # display the scattor
-        axes[i, 0].scatter(tmp_data[c], tmp_data[target.name])
-        axes[i, 0].set_xlabel(c)
+        axes[i, 1].scatter(tmp_data[c], tmp_data[target.name])
+        axes[i, 1].set_xlabel(c)
 
         i+=1
 
@@ -157,6 +157,8 @@ def dispQual(data, target, size = (5, 5)):
             continue
 
         # display the countplot
-        sns.countplot(x = c, data = data, ax = axes[i, j])
+        sns.countplot(x = c, data = data, ax = axes[i, 0])
         # display the boxplot
-        sns.boxplot(x=c, y=target.name, data=data, ax = axes[i, 0])
+        sns.boxplot(x=c, y=target.name, data=data, ax = axes[i, 1])
+
+        i+=1

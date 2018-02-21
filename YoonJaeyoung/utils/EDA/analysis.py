@@ -43,10 +43,10 @@ def get_redundant_pairs(data):
 
     return pairs_to_drop
 
-def get_top_abs_cor(df, n=5, column = None):
+def get_top_abs_cor(data, n=5, column = None):
     if(column == None):
-        au_cor = df.corr().abs().unstack()
-        labels_to_drop = get_redundant_pairs(df)
+        au_cor = data.corr().abs().unstack()
+        labels_to_drop = get_redundant_pairs(data)
         au_cor = au_cor.drop(labels = labels_to_drop).sort_values(ascending =False)
     else:
         au_cor = df.corr().abs()[column].drop(column).sort_values(ascending = False)

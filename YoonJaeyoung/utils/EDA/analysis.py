@@ -49,7 +49,7 @@ def get_top_abs_cor(data, n=5, column = None):
         labels_to_drop = get_redundant_pairs(data)
         au_cor = au_cor.drop(labels = labels_to_drop).sort_values(ascending =False)
     else:
-        au_cor = df.corr().abs()[column].drop(column).sort_values(ascending = False)
+        au_cor = data.corr().abs()[column].drop(column).sort_values(ascending = False)
 
     return au_cor[0:n]
 
